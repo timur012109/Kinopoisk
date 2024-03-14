@@ -1,0 +1,58 @@
+	.links{
+		font-size: 16px;
+		font-family: Arial;
+		margin-top: 25px; 
+		color: gray;
+		text-decoration: none;
+		margin-left: 60px;
+	}
+	.top{
+		color: white;
+		text-align: center;
+	}
+	.button{
+		background-color: green;
+		color: black;
+	}
+	.movie{
+		 height: 150px; 
+		 width: 150px;
+	}
+	.row{
+		 height: 200px; 
+		 display: flex;
+		 gap: 25px;
+	}
+	.movieblock{
+		 height: 200px; 
+		 width: 225px;
+	}
+	.banner{
+		background-image: url(bg.png);
+		height: 500px;
+		background-repeat: no-repeat; 
+		background-size: cover; 
+	}
+	.yeltxt{
+		color: yellow;
+		font-size: 15px;
+	}
+	.hoverimg{
+		width: 150px;
+		border-radius: 10px; 
+		height: 150px; 
+		margin-top: 80px;
+		margin-left: 50px;
+	}
+	.hoverbox{
+		background-color: black; 
+		height: 230px; 
+		width: 480px; 
+		margin-top: 10px; 
+		display: flex;
+	}
+	.hoverbox:hover{
+		background-color: grey;
+		transition: 1s;
+		border-radius: 11px;
+	}
